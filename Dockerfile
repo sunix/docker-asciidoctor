@@ -84,6 +84,5 @@ RUN apk add --no-cache --virtual .pythonmakedepends \
   && apk del -r --no-cache .pythonmakedepends
 
 WORKDIR /documents
-VOLUME /documents
 
 CMD ["/bin/bash"]
