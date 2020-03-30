@@ -92,6 +92,6 @@ USER 10001
 ENV HOME=/home/user
 ENTRYPOINT [ "/entrypoint.sh" ]
 
-WORKDIR /documents
+WORKDIR /projects
 
 CMD ["/bin/bash"]
